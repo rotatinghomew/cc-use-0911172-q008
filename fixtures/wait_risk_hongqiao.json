@@ -1,0 +1,900 @@
+{
+  "site_id": "station-hongqiao-1",
+  "timezone": "+08:00",
+  "slot_minutes": 60,
+  "horizon": {
+    "start": "2026-11-16",
+    "end": "2026-11-22"
+  },
+  "fill_policy": "exclude",
+  "target_seconds": 900,
+  "promise_seconds": 1800,
+  "minimum_samples": 5,
+  "replications": 300,
+  "seed": 20261117,
+  "discipline": "fifo",
+  "arrivals": {
+    "source": "station-hongqiao-1-arrivals",
+    "minimum_days": 2,
+    "observations": [
+      {
+        "observation_id": "arr-20261102-09-appt",
+        "date": "2026-11-02",
+        "slot": "09:00",
+        "channel": "appointment",
+        "count": 3,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261102-09-walk",
+        "date": "2026-11-02",
+        "slot": "09:00",
+        "channel": "walk_in",
+        "count": 4,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261102-10-appt",
+        "date": "2026-11-02",
+        "slot": "10:00",
+        "channel": "appointment",
+        "count": 4,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261102-10-walk",
+        "date": "2026-11-02",
+        "slot": "10:00",
+        "channel": "walk_in",
+        "count": 6,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261102-11-appt",
+        "date": "2026-11-02",
+        "slot": "11:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261102-11-walk",
+        "date": "2026-11-02",
+        "slot": "11:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261102-14-appt",
+        "date": "2026-11-02",
+        "slot": "14:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261102-14-walk",
+        "date": "2026-11-02",
+        "slot": "14:00",
+        "channel": "walk_in",
+        "count": 5,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261102-15-appt",
+        "date": "2026-11-02",
+        "slot": "15:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261102-15-walk",
+        "date": "2026-11-02",
+        "slot": "15:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261109-09-appt",
+        "date": "2026-11-09",
+        "slot": "09:00",
+        "channel": "appointment",
+        "count": 3,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261109-09-walk",
+        "date": "2026-11-09",
+        "slot": "09:00",
+        "channel": "walk_in",
+        "count": 4,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261109-10-appt",
+        "date": "2026-11-09",
+        "slot": "10:00",
+        "channel": "appointment",
+        "count": 5,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261109-10-walk",
+        "date": "2026-11-09",
+        "slot": "10:00",
+        "channel": "walk_in",
+        "count": 7,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261109-11-appt",
+        "date": "2026-11-09",
+        "slot": "11:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261109-11-walk",
+        "date": "2026-11-09",
+        "slot": "11:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261109-14-appt",
+        "date": "2026-11-09",
+        "slot": "14:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261109-14-walk",
+        "date": "2026-11-09",
+        "slot": "14:00",
+        "channel": "walk_in",
+        "count": 5,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261109-15-appt",
+        "date": "2026-11-09",
+        "slot": "15:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261109-15-walk",
+        "date": "2026-11-09",
+        "slot": "15:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261103-09-appt",
+        "date": "2026-11-03",
+        "slot": "09:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261103-09-walk",
+        "date": "2026-11-03",
+        "slot": "09:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261103-10-appt",
+        "date": "2026-11-03",
+        "slot": "10:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261103-10-walk",
+        "date": "2026-11-03",
+        "slot": "10:00",
+        "channel": "walk_in",
+        "count": 4,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261103-11-appt",
+        "date": "2026-11-03",
+        "slot": "11:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261103-11-walk",
+        "date": "2026-11-03",
+        "slot": "11:00",
+        "channel": "walk_in",
+        "count": 2,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261103-14-appt",
+        "date": "2026-11-03",
+        "slot": "14:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261103-14-walk",
+        "date": "2026-11-03",
+        "slot": "14:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261103-15-appt",
+        "date": "2026-11-03",
+        "slot": "15:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261103-15-walk",
+        "date": "2026-11-03",
+        "slot": "15:00",
+        "channel": "walk_in",
+        "count": 2,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261110-09-appt",
+        "date": "2026-11-10",
+        "slot": "09:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261110-09-walk",
+        "date": "2026-11-10",
+        "slot": "09:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261110-10-appt",
+        "date": "2026-11-10",
+        "slot": "10:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261110-10-walk",
+        "date": "2026-11-10",
+        "slot": "10:00",
+        "channel": "walk_in",
+        "count": 4,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261110-11-appt",
+        "date": "2026-11-10",
+        "slot": "11:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261110-11-walk",
+        "date": "2026-11-10",
+        "slot": "11:00",
+        "channel": "walk_in",
+        "count": 2,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261110-14-appt",
+        "date": "2026-11-10",
+        "slot": "14:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261110-14-walk",
+        "date": "2026-11-10",
+        "slot": "14:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261110-15-appt",
+        "date": "2026-11-10",
+        "slot": "15:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261110-15-walk",
+        "date": "2026-11-10",
+        "slot": "15:00",
+        "channel": "walk_in",
+        "count": 2,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261105-09-appt",
+        "date": "2026-11-05",
+        "slot": "09:00",
+        "channel": "appointment",
+        "count": 3,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261105-09-walk",
+        "date": "2026-11-05",
+        "slot": "09:00",
+        "channel": "walk_in",
+        "count": 4,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261105-10-appt",
+        "date": "2026-11-05",
+        "slot": "10:00",
+        "channel": "appointment",
+        "count": 3,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261105-10-walk",
+        "date": "2026-11-05",
+        "slot": "10:00",
+        "channel": "walk_in",
+        "count": 5,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261105-11-appt",
+        "date": "2026-11-05",
+        "slot": "11:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261105-11-walk",
+        "date": "2026-11-05",
+        "slot": "11:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261105-14-appt",
+        "date": "2026-11-05",
+        "slot": "14:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261105-14-walk",
+        "date": "2026-11-05",
+        "slot": "14:00",
+        "channel": "walk_in",
+        "count": 4,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261105-15-appt",
+        "date": "2026-11-05",
+        "slot": "15:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261105-15-walk",
+        "date": "2026-11-05",
+        "slot": "15:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261112-09-appt",
+        "date": "2026-11-12",
+        "slot": "09:00",
+        "channel": "appointment",
+        "count": 3,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261112-09-walk",
+        "date": "2026-11-12",
+        "slot": "09:00",
+        "channel": "walk_in",
+        "count": 4,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261112-10-appt",
+        "date": "2026-11-12",
+        "slot": "10:00",
+        "channel": "appointment",
+        "count": 3,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261112-10-walk",
+        "date": "2026-11-12",
+        "slot": "10:00",
+        "channel": "walk_in",
+        "count": 5,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261112-11-appt",
+        "date": "2026-11-12",
+        "slot": "11:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261112-11-walk",
+        "date": "2026-11-12",
+        "slot": "11:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261112-14-appt",
+        "date": "2026-11-12",
+        "slot": "14:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261112-14-walk",
+        "date": "2026-11-12",
+        "slot": "14:00",
+        "channel": "walk_in",
+        "count": 4,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261112-15-appt",
+        "date": "2026-11-12",
+        "slot": "15:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261112-15-walk",
+        "date": "2026-11-12",
+        "slot": "15:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261106-09-appt",
+        "date": "2026-11-06",
+        "slot": "09:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261106-09-walk",
+        "date": "2026-11-06",
+        "slot": "09:00",
+        "channel": "walk_in",
+        "count": 4,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261106-10-appt",
+        "date": "2026-11-06",
+        "slot": "10:00",
+        "channel": "appointment",
+        "count": 3,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261106-10-walk",
+        "date": "2026-11-06",
+        "slot": "10:00",
+        "channel": "walk_in",
+        "count": 5,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261106-11-appt",
+        "date": "2026-11-06",
+        "slot": "11:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261106-11-walk",
+        "date": "2026-11-06",
+        "slot": "11:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261106-14-appt",
+        "date": "2026-11-06",
+        "slot": "14:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261106-14-walk",
+        "date": "2026-11-06",
+        "slot": "14:00",
+        "channel": "walk_in",
+        "count": 4,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261106-15-appt",
+        "date": "2026-11-06",
+        "slot": "15:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261106-15-walk",
+        "date": "2026-11-06",
+        "slot": "15:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261113-09-appt",
+        "date": "2026-11-13",
+        "slot": "09:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261113-09-walk",
+        "date": "2026-11-13",
+        "slot": "09:00",
+        "channel": "walk_in",
+        "count": 4,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261113-10-appt",
+        "date": "2026-11-13",
+        "slot": "10:00",
+        "channel": "appointment",
+        "count": 3,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261113-10-walk",
+        "date": "2026-11-13",
+        "slot": "10:00",
+        "channel": "walk_in",
+        "count": 5,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261113-11-appt",
+        "date": "2026-11-13",
+        "slot": "11:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261113-11-walk",
+        "date": "2026-11-13",
+        "slot": "11:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261113-14-appt",
+        "date": "2026-11-13",
+        "slot": "14:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261113-14-walk",
+        "date": "2026-11-13",
+        "slot": "14:00",
+        "channel": "walk_in",
+        "count": 4,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261113-15-appt",
+        "date": "2026-11-13",
+        "slot": "15:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261113-15-walk",
+        "date": "2026-11-13",
+        "slot": "15:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261107-09-appt",
+        "date": "2026-11-07",
+        "slot": "09:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261107-09-walk",
+        "date": "2026-11-07",
+        "slot": "09:00",
+        "channel": "walk_in",
+        "count": 2,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261107-10-appt",
+        "date": "2026-11-07",
+        "slot": "10:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261107-10-walk",
+        "date": "2026-11-07",
+        "slot": "10:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261107-11-walk",
+        "date": "2026-11-07",
+        "slot": "11:00",
+        "channel": "walk_in",
+        "count": 2,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261114-09-appt",
+        "date": "2026-11-14",
+        "slot": "09:00",
+        "channel": "appointment",
+        "count": 1,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261114-09-walk",
+        "date": "2026-11-14",
+        "slot": "09:00",
+        "channel": "walk_in",
+        "count": 2,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261114-10-appt",
+        "date": "2026-11-14",
+        "slot": "10:00",
+        "channel": "appointment",
+        "count": 2,
+        "source": "booking-log"
+      },
+      {
+        "observation_id": "arr-20261114-10-walk",
+        "date": "2026-11-14",
+        "slot": "10:00",
+        "channel": "walk_in",
+        "count": 3,
+        "source": "queue-log"
+      },
+      {
+        "observation_id": "arr-20261114-11-walk",
+        "date": "2026-11-14",
+        "slot": "11:00",
+        "channel": "walk_in",
+        "count": 2,
+        "source": "queue-log"
+      }
+    ]
+  },
+  "service": {
+    "source": "station-hongqiao-1-service-log",
+    "samples_seconds": [
+      540,
+      600,
+      660,
+      720,
+      780,
+      900,
+      480,
+      630,
+      750,
+      840
+    ],
+    "by_channel": {
+      "appointment": [
+        480,
+        540,
+        600,
+        600,
+        660,
+        720
+      ],
+      "walk_in": [
+        600,
+        660,
+        720,
+        840,
+        900,
+        960
+      ]
+    }
+  },
+  "calendar": {
+    "source": "station-hongqiao-1-roster-2026-11",
+    "shifts": [
+      {
+        "shift_id": "am",
+        "weekdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "seats": 2,
+        "breaks": [
+          {
+            "start": "10:30",
+            "end": "10:45",
+            "reason": "morning-break"
+          }
+        ]
+      },
+      {
+        "shift_id": "pm",
+        "weekdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "start": "13:30",
+        "end": "17:00",
+        "seats": 2,
+        "breaks": [
+          {
+            "start": "15:00",
+            "end": "15:15",
+            "reason": "afternoon-break"
+          }
+        ]
+      },
+      {
+        "shift_id": "sat",
+        "weekdays": [
+          5
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "seats": 1
+      }
+    ],
+    "holidays": [
+      "2026-11-18"
+    ]
+  },
+  "scenarios": [
+    {
+      "scenario_id": "as-is",
+      "seats_delta": 0,
+      "label": "现有 AM2/PM2 席位"
+    },
+    {
+      "scenario_id": "plus-one-am",
+      "seats_delta": 0,
+      "seat_overrides": {
+        "am": 3,
+        "pm": 2
+      },
+      "label": "仅上午临时加 1 席"
+    },
+    {
+      "scenario_id": "minus-one-pm",
+      "seats_delta": 0,
+      "seat_overrides": {
+        "am": 2,
+        "pm": 1
+      },
+      "label": "下午缩减 1 席"
+    }
+  ],
+  "baseline": {
+    "source": "existing-daily-capacity-forecast",
+    "daily": [
+      {
+        "date": "2026-11-16",
+        "demand": 40,
+        "agents": 2
+      },
+      {
+        "date": "2026-11-17",
+        "demand": 26,
+        "agents": 2
+      },
+      {
+        "date": "2026-11-18",
+        "demand": 0,
+        "agents": 0
+      },
+      {
+        "date": "2026-11-19",
+        "demand": 34,
+        "agents": 2
+      },
+      {
+        "date": "2026-11-20",
+        "demand": 36,
+        "agents": 2
+      },
+      {
+        "date": "2026-11-21",
+        "demand": 8,
+        "agents": 1
+      },
+      {
+        "date": "2026-11-22",
+        "demand": 0,
+        "agents": 0
+      }
+    ],
+    "notes": [
+      "原预测按日汇总，未区分上午/下午与预约/现场到达"
+    ]
+  }
+}
